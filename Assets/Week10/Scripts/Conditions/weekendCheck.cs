@@ -28,7 +28,7 @@ namespace NodeCanvas.Tasks.Conditions {
 		//Return whether the condition is success or failure.
 		protected override bool OnCheck() 
 		{
-			if (today.value == 6 && today.value == 7)
+			if (today.value == 6 || today.value == 7)
 			{
 				return true;
 			}
